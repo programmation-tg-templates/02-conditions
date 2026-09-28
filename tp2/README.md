@@ -22,4 +22,4 @@ Lancez `npm test -- tp2`, puis `npm run typecheck`.
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP2 — Casse d’une lettre » et complétez le corps de fonction.
+Ouvrez la tâche « TP2 — Casse d’une lettre » et modifiez la fonction préremplie sans retirer sa signature ni ses accolades.

@@ -26,4 +26,4 @@ Lancez `npm test -- tp4`, puis `npm run typecheck`.
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP4 — Appréciation d’une note » et complétez le corps de fonction.
+Ouvrez la tâche « TP4 — Appréciation d’une note » et modifiez la fonction préremplie sans retirer sa signature ni ses accolades.

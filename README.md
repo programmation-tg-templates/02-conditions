@@ -18,6 +18,6 @@ Vérifiez que votre code respecte les types avec `npm run typecheck`.
 
 ## Soumettre
 
-Ouvrez la tâche correspondante sur INGInious et complétez uniquement le ou les corps de fonction demandés.
+Ouvrez la tâche correspondante sur INGInious et modifiez le corps de la fonction préremplie sans retirer sa signature ni ses accolades.
 
-Les signatures et les tests sont fournis automatiquement et ne doivent pas être recopiés.
+Pour le TD1, une fonction complète est fournie dans chacun des deux champs de réponse.

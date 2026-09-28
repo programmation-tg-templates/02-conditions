@@ -26,4 +26,4 @@ Lancez `npm test -- tp3`, puis `npm run typecheck`.
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP3 — Comparaison de deux nombres » et complétez le corps de fonction.
+Ouvrez la tâche « TP3 — Comparaison de deux nombres » et modifiez la fonction préremplie sans retirer sa signature ni ses accolades.

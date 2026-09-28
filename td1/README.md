@@ -22,4 +22,4 @@ Lancez `npm test -- td1`, puis `npm run typecheck`.
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TD1 — Conditions sur l’âge et un nombre » et complétez séparément les deux corps de fonction.
+Ouvrez la tâche « TD1 — Conditions sur l’âge et un nombre » et modifiez les deux corps préremplis sans retirer les signatures ni les accolades.

@@ -26,4 +26,4 @@ Lancez `npm test -- tp1`, puis `npm run typecheck`.
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP1 — Année bissextile » et complétez le corps de fonction.
+Ouvrez la tâche « TP1 — Année bissextile » et modifiez la fonction préremplie sans retirer sa signature ni ses accolades.
