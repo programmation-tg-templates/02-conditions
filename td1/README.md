@@ -1,14 +1,20 @@
 # TD1 — Conditions sur l’âge et un nombre
 
-**Objectif** : distinguer deux cas à l’aide d’une condition et combiner deux critères.
+**Objectifs** :
+
+- Reconnaître deux situations différentes selon une valeur numérique.
+- Évaluer une condition qui combine deux critères.
+- Retourner une valeur du type attendu pour chaque fonction.
 
 ## Consignes
 
-Complétez dans `td1.ts` le corps de `majoriteCivile` pour reconnaître une personne majeure ou mineure.
+Complétez dans `td1.ts` le corps de `majoriteCivile` pour retourner `Majeur` ou `Mineur` selon l’âge reçu.
 
-Complétez ensuite le corps de `estPairEtPositif` pour vérifier si un nombre est pair et positif.
+Complétez ensuite le corps de `estPairEtPositif` pour indiquer si le nombre reçu est pair et positif.
 
 Ne modifiez pas les noms, les paramètres ou les types de retour des fonctions.
+
+Les conditions permettent par exemple d’autoriser une action dans un jeu selon l’état du personnage.
 
 ## Tester votre code
 
