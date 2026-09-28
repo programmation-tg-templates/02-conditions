@@ -1,0 +1,11 @@
+{
+  // Voir https://aka.ms/tsconfig
+  "extends": [
+    "@tsconfig/node-lts/tsconfig.json",
+    "@tsconfig/node-ts/tsconfig.json"
+  ],
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": ["*/**/*.ts"]
+}
