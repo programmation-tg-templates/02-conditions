@@ -1,29 +1,35 @@
-# TP1 — Année bissextile
+# TP1 — Gagner la partie
 
-**Objectifs** :
+**Objectifs** :
 
-- Déterminer si une année est divisible par un nombre donné.
-- Tenir compte des exceptions à une règle générale.
-- Retourner un booléen qui indique si l’année est bissextile.
+- Écrire une comparaison avec `>=`.
+- Choisir entre `>` et `>=` au seuil.
 
 ## Consignes
 
-Une année est bissextile si elle est divisible par 4, sauf si elle est divisible par 100.
+Un joueur gagne la partie quand il atteint 100 points ou plus.
 
-Une année divisible par 400 reste bissextile.
+Écrivez la condition qui fait retourner `true` au joueur qui gagne.
 
-Complétez dans `tp1.ts` le corps de `estBissextile` pour retourner `true` si l’année est bissextile et `false` sinon.
+Exemples :
 
-Par exemple, 2024 et 2000 sont bissextiles, mais 1900 ne l’est pas.
+- `aGagne(150)` retourne `true`.
+- `aGagne(20)` retourne `false`.
 
-Ne modifiez pas le nom, le paramètre ou le type de retour de la fonction.
+Sur INGInious, la signature, le `if` et les deux `return` sont fournis : vous écrivez seulement la condition, entre les parenthèses du `if`, sans point-virgule.
 
-Les règles conditionnelles servent à décider si un événement doit se répéter dans un calendrier numérique.
+Une condition de victoire ou de passage au niveau suivant se programme avec un seuil, comme dans la plupart des jeux.
 
 ## Tester votre code
 
-Lancez `npm test -- tp1`, puis `npm run typecheck`.
+Essayez d’abord votre fonction dans le Playground TypeScript, en mode strict, avec les exemples de l’énoncé et avec vos propres valeurs : quels autres cas faut-il tester ?
+Ensuite, lancez les tests :
+
+```bash
+npm install
+npm test -- tp1
+```
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP1 — Année bissextile » et modifiez la fonction préremplie sans retirer sa signature ni ses accolades.
+Ouvrez la tâche « TP1 — Gagner la partie », répondez à la ou aux questions, puis écrivez la condition dans le champ de réponse.

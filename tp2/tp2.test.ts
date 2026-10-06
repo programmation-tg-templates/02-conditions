@@ -1,50 +1,22 @@
 // Tests unitaires écrits par l'enseignant. Ne modifiez pas ce fichier.
 import { describe, expect, test } from "vitest";
 
-import { verifierLettre } from "./tp2.ts";
+import { estGameOver } from "./tp2.ts";
 
-describe("Vérifier la casse d'une lette", () => {
-  test("Un texte n'est pas un caractère valide", () => {
-    expect(verifierLettre("AA")).toEqual("invalide");
+describe("Vérifier si la partie est terminée", () => {
+  test("Aucune vie : la partie est terminée", () => {
+    expect(estGameOver(0)).toBe(true);
   });
 
-  test("Une chaine vide n'est pas un caractère valide", () => {
-    expect(verifierLettre("")).toEqual("invalide");
+  test("Une vie : la partie continue", () => {
+    expect(estGameOver(1)).toBe(false);
   });
 
-  test("Un nombre n'est pas un caractère valide", () => {
-    expect(verifierLettre("3")).toEqual("invalide");
+  test("Trois vies : la partie continue", () => {
+    expect(estGameOver(3)).toBe(false);
   });
 
-  test("A est une majuscule", () => {
-    expect(verifierLettre("A")).toEqual("majuscule");
-  });
-
-  test("a est une minuscule", () => {
-    expect(verifierLettre("a")).toEqual("minuscule");
-  });
-
-  test("L est une majuscule", () => {
-    expect(verifierLettre("L")).toEqual("majuscule");
-  });
-
-  test("l est une minuscule", () => {
-    expect(verifierLettre("l")).toEqual("minuscule");
-  });
-
-  test("L est une majuscule", () => {
-    expect(verifierLettre("L")).toEqual("majuscule");
-  });
-
-  test("l est une minuscule", () => {
-    expect(verifierLettre("l")).toEqual("minuscule");
-  });
-
-  test("Z est une majuscule", () => {
-    expect(verifierLettre("Z")).toEqual("majuscule");
-  });
-
-  test("z est une minuscule", () => {
-    expect(verifierLettre("z")).toEqual("minuscule");
+  test("Dix vies : la partie continue", () => {
+    expect(estGameOver(10)).toBe(false);
   });
 });

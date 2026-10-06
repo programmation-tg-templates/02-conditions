@@ -1,26 +1,26 @@
 // Tests unitaires écrits par l'enseignant. Ne modifiez pas ce fichier.
 import { describe, expect, test } from "vitest";
 
-import { donnerAppreciation } from "./tp4.ts";
+import { estPair } from "./tp4.ts";
 
-describe("Donner une appréciation d’une note\n", () => {
-  test('Très faible" si la note est entre 0 et 7', () => {
-    expect(donnerAppreciation(5)).toEqual("Très faible");
+describe("Vérifier si un nombre est pair", () => {
+  test("12 est pair", () => {
+    expect(estPair(12)).toBe(true);
   });
 
-  test('"Moyenne" si la note est entre 8 et 12', () => {
-    expect(donnerAppreciation(10)).toEqual("Moyenne");
+  test("7 est impair", () => {
+    expect(estPair(7)).toBe(false);
   });
 
-  test('"Bien" si la note est entre 13 et 16', () => {
-    expect(donnerAppreciation(15)).toEqual("Bien");
+  test("0 est pair", () => {
+    expect(estPair(0)).toBe(true);
   });
 
-  test('"Excellent" si la note est entre 17 et 20', () => {
-    expect(donnerAppreciation(18)).toEqual("Excellent");
+  test("Un négatif pair est pair", () => {
+    expect(estPair(-4)).toBe(true);
   });
 
-  test('Note invalide" si la valeur saisie est en dehors de [0, 20].', () => {
-    expect(donnerAppreciation(25)).toEqual("Note invalide");
+  test("Un négatif impair est impair", () => {
+    expect(estPair(-3)).toBe(false);
   });
 });

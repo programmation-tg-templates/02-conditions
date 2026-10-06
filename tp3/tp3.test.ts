@@ -1,18 +1,22 @@
 // Tests unitaires écrits par l'enseignant. Ne modifiez pas ce fichier.
 import { describe, expect, test } from "vitest";
 
-import { comparerNombres } from "./tp3.ts";
+import { estGele } from "./tp3.ts";
 
-describe("Comparaison de deux nombres\n", () => {
-  test("si le premier nombre est supérieur au second", () => {
-    expect(comparerNombres(10, 5)).toEqual("Le premier est plus grand");
+describe("Vérifier si la route est gelée", () => {
+  test("Une température négative gèle", () => {
+    expect(estGele(-5)).toBe(true);
   });
 
-  test("si le second est supérieur au premier", () => {
-    expect(comparerNombres(5, 10)).toEqual("Le deuxième est plus grand");
+  test("Une température positive ne gèle pas", () => {
+    expect(estGele(5)).toBe(false);
   });
 
-  test("si les deux nombres sont identiques", () => {
-    expect(comparerNombres(10, 10)).toEqual("Les deux sont égaux");
+  test("0 °C ne gèle pas (seuil exclu)", () => {
+    expect(estGele(0)).toBe(false);
+  });
+
+  test("Juste sous zéro gèle", () => {
+    expect(estGele(-0.1)).toBe(true);
   });
 });

@@ -1,29 +1,35 @@
-# TP4 — Appréciation d’une note
+# TP4 — Nombre pair
 
-**Objectifs** :
+**Objectifs** :
 
-- Classer une note dans l’un des quatre intervalles proposés.
-- Retourner une appréciation textuelle pour chaque intervalle.
-- Reconnaître une valeur hors de l’intervalle autorisé.
+- Utiliser le modulo `%` dans une condition.
+- Combiner `%` et `===` pour tester la parité.
 
 ## Consignes
 
-Complétez dans `tp4.ts` le corps de `donnerAppreciation` pour retourner l’appréciation qui correspond à la note reçue.
+Un nombre est pair quand le reste de sa division par 2 vaut 0.
 
-- Retournez `Très faible` pour une note comprise entre 0 et 7.
-- Retournez `Moyenne` pour une note comprise entre 8 et 12.
-- Retournez `Bien` pour une note comprise entre 13 et 16.
-- Retournez `Excellent` pour une note comprise entre 17 et 20.
-- Retournez `Note invalide` pour une valeur hors de l’intervalle [0, 20].
+Écrivez la condition qui fait retourner `true` pour un nombre pair.
 
-Ne modifiez pas le nom, le paramètre ou le type de retour de la fonction.
+Exemples :
 
-Les conditions par intervalles servent, par exemple, à classer automatiquement des éléments dans un outil graphique.
+- `estPair(12)` retourne `true`.
+- `estPair(7)` retourne `false`.
+
+Sur INGInious, la signature, le `if` et les deux `return` sont fournis : vous écrivez seulement la condition, entre les parenthèses du `if`, sans point-virgule.
+
+Tester la parité sert à alterner des couleurs de lignes dans un tableau ou à faire clignoter un élément une image sur deux.
 
 ## Tester votre code
 
-Lancez `npm test -- tp4`, puis `npm run typecheck`.
+Essayez d’abord votre fonction dans le Playground TypeScript, en mode strict, avec les exemples de l’énoncé et avec vos propres valeurs : quels autres cas faut-il tester ?
+Ensuite, lancez les tests :
+
+```bash
+npm install
+npm test -- tp4
+```
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP4 — Appréciation d’une note » et modifiez la fonction préremplie sans retirer sa signature ni ses accolades.
+Ouvrez la tâche « TP4 — Nombre pair », répondez à la ou aux questions, puis écrivez la condition dans le champ de réponse.

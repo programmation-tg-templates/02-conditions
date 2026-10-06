@@ -1,6 +1,6 @@
 /**
- * Compare deux nombres et décrit leur relation.
+ * Indique si la route est gelée.
  */
-export function comparerNombres(nbre1: number, nbre2: number): string {
+export function estGele(temperature: number): boolean {
   throw new Error("À implémenter");
 }

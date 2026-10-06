@@ -1,29 +1,35 @@
-# TP3 — Comparaison de deux nombres
+# TP3 — Route gelée
 
-**Objectifs** :
+**Objectifs** :
 
-- Comparer deux valeurs numériques.
-- Distinguer les cas « supérieur », « inférieur » et « égal ».
-- Retourner le message qui correspond au résultat de la comparaison.
+- Écrire une comparaison avec `<`.
+- Traiter correctement la valeur 0, au seuil.
 
 ## Consignes
 
-Complétez dans `tp3.ts` le corps de `comparerNombres` pour comparer les deux nombres reçus.
+Une route est gelée quand la température est strictement inférieure à 0 °C.
 
-Retournez `Le premier est plus grand` si le premier nombre est supérieur au second.
+Écrivez la condition qui fait retourner `true` quand la route est gelée.
 
-Retournez `Le deuxième est plus grand` si le second nombre est supérieur au premier.
+Exemples :
 
-Retournez `Les deux sont égaux` si les deux nombres ont la même valeur.
+- `estGele(-5)` retourne `true`.
+- `estGele(12)` retourne `false`.
 
-Ne modifiez pas le nom, les paramètres ou le type de retour de la fonction.
+Sur INGInious, la signature, le `if` et les deux `return` sont fournis : vous écrivez seulement la condition, entre les parenthèses du `if`, sans point-virgule.
 
-Les comparaisons servent notamment à choisir l’ordre d’affichage d’éléments dans une interface.
+Une application météo ou un jeu de conduite change de comportement selon un seuil de température.
 
 ## Tester votre code
 
-Lancez `npm test -- tp3`, puis `npm run typecheck`.
+Essayez d’abord votre fonction dans le Playground TypeScript, en mode strict, avec les exemples de l’énoncé et avec vos propres valeurs : quels autres cas faut-il tester ?
+Ensuite, lancez les tests :
+
+```bash
+npm install
+npm test -- tp3
+```
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP3 — Comparaison de deux nombres » et modifiez la fonction préremplie sans retirer sa signature ni ses accolades.
+Ouvrez la tâche « TP3 — Route gelée », répondez à la ou aux questions, puis écrivez la condition dans le champ de réponse.

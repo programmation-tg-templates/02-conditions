@@ -1,6 +1,6 @@
 /**
- * Indique si une année est bissextile.
+ * Indique si un joueur a gagné la partie.
  */
-export function estBissextile(annee: number): boolean {
+export function aGagne(score: number): boolean {
   throw new Error("À implémenter");
 }

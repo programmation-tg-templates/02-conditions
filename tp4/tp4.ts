@@ -1,6 +1,6 @@
 /**
- * Retourne une appréciation correspondant à une note entre 0 et 20.
+ * Indique si un nombre est pair.
  */
-export function donnerAppreciation(note: number): string {
+export function estPair(nombre: number): boolean {
   throw new Error("À implémenter");
 }

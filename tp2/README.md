@@ -1,25 +1,35 @@
-# TP2 — Casse d’une lettre
+# TP2 — Fin de partie
 
-**Objectifs** :
+**Objectifs** :
 
-- Reconnaître une lettre majuscule dans l’intervalle de `A` à `Z`.
-- Reconnaître une lettre minuscule dans l’intervalle de `a` à `z`.
-- Signaler les chaînes vides, trop longues ou qui ne sont pas des lettres.
+- Écrire une comparaison d’égalité avec `===`.
+- Distinguer `===` (comparer) de `=` (affecter).
 
 ## Consignes
 
-Complétez dans `tp2.ts` le corps de `verifierLettre` pour retourner `majuscule`, `minuscule` ou `invalide`.
+La partie est terminée quand il ne reste aucune vie.
 
-Une lettre majuscule se trouve entre `A` et `Z`, et une lettre minuscule entre `a` et `z`.
+Écrivez la condition qui fait retourner `true` quand la partie est terminée.
 
-Ne modifiez pas le nom, le paramètre ou le type de retour de la fonction.
+Exemples :
 
-Une condition sur la casse permet, par exemple, d’adapter l’affichage d’un texte saisi dans une interface.
+- `estGameOver(0)` retourne `true`.
+- `estGameOver(2)` retourne `false`.
+
+Sur INGInious, la signature, le `if` et les deux `return` sont fournis : vous écrivez seulement la condition, entre les parenthèses du `if`, sans point-virgule.
+
+Un jeu teste à chaque image si la partie est terminée : une comparaison d’égalité décide du moment.
 
 ## Tester votre code
 
-Lancez `npm test -- tp2`, puis `npm run typecheck`.
+Essayez d’abord votre fonction dans le Playground TypeScript, en mode strict, avec les exemples de l’énoncé et avec vos propres valeurs : quels autres cas faut-il tester ?
+Ensuite, lancez les tests :
+
+```bash
+npm install
+npm test -- tp2
+```
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP2 — Casse d’une lettre » et modifiez la fonction préremplie sans retirer sa signature ni ses accolades.
+Ouvrez la tâche « TP2 — Fin de partie », répondez à la ou aux questions, puis écrivez la condition dans le champ de réponse.

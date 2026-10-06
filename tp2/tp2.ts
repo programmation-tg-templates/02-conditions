@@ -1,6 +1,6 @@
 /**
- * Indique si une chaîne contient une lettre majuscule, une lettre minuscule ou une valeur invalide.
+ * Indique si la partie est terminée.
  */
-export function verifierLettre(lettre: string): string {
+export function estGameOver(vies: number): boolean {
   throw new Error("À implémenter");
 }
