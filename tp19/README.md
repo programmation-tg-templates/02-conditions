@@ -41,5 +41,6 @@ npm test -- tp19
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP19 — Casse d’une lettre », répondez à la question, puis écrivez la fonction complète dans le champ de réponse, vide au départ.
+Commencez par la tâche « TP19 — Prédiction ».
+Ouvrez la tâche « TP19 — Casse d’une lettre » et écrivez la fonction complète dans le champ de réponse, vide au départ.
 N’écrivez pas `export` : la correction l’ajoute elle-même.

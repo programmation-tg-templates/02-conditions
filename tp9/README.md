@@ -36,4 +36,5 @@ npm test -- tp9
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP9 — Format d’écran », répondez à la ou aux questions, puis écrivez le corps de la fonction dans le champ de réponse.
+Commencez par la tâche « TP9 — Prédiction ».
+Ouvrez la tâche « TP9 — Format d’écran » et écrivez le corps de la fonction dans le champ de réponse.

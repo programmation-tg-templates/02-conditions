@@ -36,4 +36,6 @@ npm test -- tp8
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP8 — État de santé », répondez à la ou aux questions, puis écrivez le corps de la fonction dans le champ de réponse.
+Commencez par la tâche « TP8 — Prédiction ».
+Ouvrez la tâche « TP8 — État de santé » et écrivez le corps de la fonction dans le champ de réponse.
+Terminez avec la tâche « TP8 — Questions ».

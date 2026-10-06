@@ -42,5 +42,5 @@ npm test -- defi3
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « Défi 3 — Case libre », puis écrivez la fonction complète dans le champ de réponse, vide au départ.
+Ouvrez la tâche « Défi 3 — Case libre » et écrivez la fonction complète dans le champ de réponse, vide au départ.
 N’écrivez pas `export` : la correction l’ajoute elle-même.

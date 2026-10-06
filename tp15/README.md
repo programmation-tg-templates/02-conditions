@@ -36,4 +36,4 @@ npm test -- tp15
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP15 — Note valide », répondez à la ou aux questions, puis écrivez la condition dans le champ de réponse.
+Ouvrez la tâche « TP15 — Note valide » et écrivez la condition dans le champ de réponse.

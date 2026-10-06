@@ -34,4 +34,5 @@ npm test -- tp14
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP14 — Hors de l’écran », répondez à la ou aux questions, puis écrivez la condition dans le champ de réponse.
+Commencez par la tâche « TP14 — Prédiction ».
+Ouvrez la tâche « TP14 — Hors de l’écran » et écrivez la condition dans le champ de réponse.

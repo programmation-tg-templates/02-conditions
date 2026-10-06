@@ -32,4 +32,4 @@ npm test -- tp12
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP12 — Saut du personnage », répondez à la ou aux questions, puis écrivez la condition dans le champ de réponse.
+Ouvrez la tâche « TP12 — Saut du personnage » et écrivez la condition dans le champ de réponse.

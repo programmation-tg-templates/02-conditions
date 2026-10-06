@@ -43,5 +43,5 @@ npm test -- defi2
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « Défi 2 — Catégorie de dégâts », puis écrivez la fonction complète dans le champ de réponse, vide au départ.
+Ouvrez la tâche « Défi 2 — Catégorie de dégâts » et écrivez la fonction complète dans le champ de réponse, vide au départ.
 N’écrivez pas `export` : la correction l’ajoute elle-même.

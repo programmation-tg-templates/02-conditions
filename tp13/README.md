@@ -32,4 +32,4 @@ npm test -- tp13
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP13 — Jour du week-end », répondez à la ou aux questions, puis écrivez la condition dans le champ de réponse.
+Ouvrez la tâche « TP13 — Jour du week-end » et écrivez la condition dans le champ de réponse.

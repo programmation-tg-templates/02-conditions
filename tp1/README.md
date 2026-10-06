@@ -32,4 +32,5 @@ npm test -- tp1
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP1 — Gagner la partie », répondez à la ou aux questions, puis écrivez la condition dans le champ de réponse.
+Commencez par la tâche « TP1 — Prédiction ».
+Ouvrez la tâche « TP1 — Gagner la partie » et écrivez la condition dans le champ de réponse.

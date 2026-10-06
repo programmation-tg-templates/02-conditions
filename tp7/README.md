@@ -34,4 +34,4 @@ npm test -- tp7
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP7 — Bouton de connexion », répondez à la ou aux questions, puis écrivez le corps de la fonction dans le champ de réponse.
+Ouvrez la tâche « TP7 — Bouton de connexion » et écrivez le corps de la fonction dans le champ de réponse.

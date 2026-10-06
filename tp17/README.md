@@ -34,4 +34,5 @@ npm test -- tp17
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP17 — Entrée du donjon », répondez à la ou aux questions, puis écrivez le corps de la fonction dans le champ de réponse.
+Commencez par la tâche « TP17 — Prédiction ».
+Ouvrez la tâche « TP17 — Entrée du donjon » et écrivez le corps de la fonction dans le champ de réponse.

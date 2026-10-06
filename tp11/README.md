@@ -38,5 +38,6 @@ npm test -- tp11
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP11 — Appréciation d’une note », répondez à la question, puis écrivez la fonction complète dans le champ de réponse, vide au départ.
+Commencez par la tâche « TP11 — Prédiction ».
+Ouvrez la tâche « TP11 — Appréciation d’une note » et écrivez la fonction complète dans le champ de réponse, vide au départ.
 N’écrivez pas `export` : la correction l’ajoute elle-même.

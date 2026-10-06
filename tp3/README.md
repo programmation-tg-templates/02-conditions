@@ -32,4 +32,5 @@ npm test -- tp3
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP3 — Route gelée », répondez à la ou aux questions, puis écrivez la condition dans le champ de réponse.
+Commencez par la tâche « TP3 — Prédiction ».
+Ouvrez la tâche « TP3 — Route gelée » et écrivez la condition dans le champ de réponse.

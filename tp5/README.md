@@ -32,4 +32,4 @@ npm test -- tp5
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP5 — Record battu », répondez à la ou aux questions, puis écrivez la condition dans le champ de réponse.
+Ouvrez la tâche « TP5 — Record battu » et écrivez la condition dans le champ de réponse.

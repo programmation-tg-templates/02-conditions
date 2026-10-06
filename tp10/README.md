@@ -41,5 +41,5 @@ npm test -- tp10
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP10 — Comparaison de deux nombres », répondez à la question, puis écrivez la fonction complète dans le champ de réponse, vide au départ.
+Ouvrez la tâche « TP10 — Comparaison de deux nombres » et écrivez la fonction complète dans le champ de réponse, vide au départ.
 N’écrivez pas `export` : la correction l’ajoute elle-même.

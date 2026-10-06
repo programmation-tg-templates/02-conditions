@@ -32,4 +32,4 @@ npm test -- tp4
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP4 — Nombre pair », répondez à la ou aux questions, puis écrivez la condition dans le champ de réponse.
+Ouvrez la tâche « TP4 — Nombre pair » et écrivez la condition dans le champ de réponse.

@@ -49,5 +49,6 @@ npm test -- td1
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TD1 — Conditions sur l’âge et un nombre », répondez à la question, puis écrivez la fonction complète dans le champ de réponse, vide au départ.
+Ouvrez la tâche « TD1 — Conditions sur l’âge et un nombre » et écrivez la fonction complète dans le champ de réponse, vide au départ.
+Terminez avec la tâche « TD1 — Questions ».
 N’écrivez pas `export` : la correction l’ajoute elle-même.

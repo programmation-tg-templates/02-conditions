@@ -40,5 +40,5 @@ npm test -- defi1
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « Défi 1 — Dans les limites », puis écrivez la fonction complète dans le champ de réponse, vide au départ.
+Ouvrez la tâche « Défi 1 — Dans les limites » et écrivez la fonction complète dans le champ de réponse, vide au départ.
 N’écrivez pas `export` : la correction l’ajoute elle-même.

@@ -36,4 +36,5 @@ npm test -- tp16
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP16 — Tarif de cinéma », répondez à la ou aux questions, puis écrivez le corps de la fonction dans le champ de réponse.
+Commencez par la tâche « TP16 — Prédiction ».
+Ouvrez la tâche « TP16 — Tarif de cinéma » et écrivez le corps de la fonction dans le champ de réponse.

@@ -32,4 +32,4 @@ npm test -- tp2
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP2 — Fin de partie », répondez à la ou aux questions, puis écrivez la condition dans le champ de réponse.
+Ouvrez la tâche « TP2 — Fin de partie » et écrivez la condition dans le champ de réponse.

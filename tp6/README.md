@@ -34,4 +34,5 @@ npm test -- tp6
 
 ## Soumettre sur INGInious
 
-Ouvrez la tâche « TP6 — Limite de vitesse », répondez à la ou aux questions, puis écrivez le corps de la fonction dans le champ de réponse.
+Commencez par la tâche « TP6 — Prédiction ».
+Ouvrez la tâche « TP6 — Limite de vitesse » et écrivez le corps de la fonction dans le champ de réponse.
