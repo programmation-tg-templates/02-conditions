@@ -21,13 +21,13 @@ Pour les exercices où la fonction est à écrire en entier, le fichier TypeScri
 
 ## Ordre des exercices
 
-| Séance | Exercices |
+| TP | Exercices |
 | --- | --- |
 | 2 | `td1`, puis `tp1` à `tp11` |
-| 3 | `tp12` à `tp19` |
-| Défis facultatifs | `defi1`, `defi2` (séance 2), `defi3` (séance 3) |
+| Défi facultatif | `defi1`, `defi2` |
 
 Un défi n’est jamais nécessaire pour l’évaluation.
+Les exercices du TP3 sont dans le dépôt `03-logique-booleenne`.
 
 ## Soumettre
 
